@@ -47,7 +47,7 @@ const Sidebar = () => {
           background: `${colors.primary[400]} !important`,
         },
         "& .pro-icon-wrapper": {
-          backgroundColor: "transparent important",
+          backgroundColor: "transparent !important",
         },
         "& .pro-inner-item": {
           padding: "5px 35px 5px 20px !important",
@@ -55,7 +55,7 @@ const Sidebar = () => {
         "& .pro-inner-item:hover": {
           color: "#868dfd !important",
         },
-        "& .pro-menu-item": {
+        "& .pro-menu-item.active": {
           color: "#6870fa !important",
         },
       }}
